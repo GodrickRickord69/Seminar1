@@ -21,5 +21,5 @@ else
 {
     min = b;
 };
-Console.WriteLine(max.ToString());
-Console.WriteLine(min.ToString());
+Console.WriteLine("Max: "+max.ToString());
+Console.WriteLine("Min: "+min.ToString());
