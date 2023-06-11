@@ -13,7 +13,7 @@ while(a <= N)
 {
     if (a%2 == 0)
     {
-        Console.Write(a.ToString()+" ");
+        Console.Write($"{a} ");
     }   
     a++;
 }
