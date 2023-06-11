@@ -18,11 +18,9 @@ if( b > max )
 {
     max = b; 
 }
-else if( max > c )
+if( c > max )
 {
     max = c;
-}
-else
-{
-Console.WriteLine("Max: "+max.ToString());
 };
+
+Console.WriteLine("Max: "+max.ToString());
