@@ -4,3 +4,16 @@
 7 -> нет
 */
 
+Console.Write("Введите число a ");
+int a = int.Parse(Console.ReadLine()!);
+
+Console.WriteLine(a%2);
+
+if ( a%2 == 0 )
+{
+    Console.WriteLine("Да, число четное");
+}
+else 
+{
+    Console.WriteLine("Нет, число не четное");
+};
